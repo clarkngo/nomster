@@ -4,6 +4,11 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
+
+# store your API Key here. Heroku-friendly Rails app configuration using ENV and a single YAML file
+gem 'figaro'
+# geocoding
+gem 'geocoder'
 # user management
 gem 'devise'
 # fonts fonts fonts
