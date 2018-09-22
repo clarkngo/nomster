@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# image uploader
+gem 'carrierwave', '~> 1.0'
 # store your API Key here. Heroku-friendly Rails app configuration using ENV and a single YAML file
 gem 'figaro'
 # geocoding
