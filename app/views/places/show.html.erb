@@ -11,7 +11,7 @@
       var myLatLng = {lat: <%= @place.latitude %>, lng: <%= @place.longitude %>};
 
       var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 12,
+        zoom: 15,
         center: myLatLng
       });
 
@@ -36,10 +36,18 @@
   <div class="float-right">
     <% if current_user && current_user == @place.user %>
       <%= link_to 'Edit', edit_place_path(@place), class: 'btn btn-primary' %>
+      
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#pictureModal">
+        Add a photo
+      </button>
+
       <%= link_to 'Destroy', place_path(@place), method: :delete, data: {confirm: 'Are you sure you want to delete this?'}, class: 'btn btn-danger' %>
     <% end %>
   </div>
 
+
+  <div class="clear"></div>
 
   <br />
   <br />
@@ -79,6 +87,8 @@
     </button>
   </div>
   <div class="clear"></div>
+  <br />
+  <br />
 
   <div class="row">
     <% @place.comments.each do |comment| %>
@@ -119,26 +129,25 @@
       </div>
     </div>
   </div>
-  <div class="10-col offset-1">
+  <br />
+  <br />
+
+    <div class="10-col offset-1">
     <h1 class="float-left">Photos</h1>
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary btn-lg float-right" data-toggle="modal" data-target="#pictureModal">
-      Add a photo
-    </button>
-  </div>
-  <div class="clear"></div>
+
+  <br />
+  <br />
+
 
   <div class="row">
     <% @place.photos.each do |photo| %>
       <div class="col-12 col-sm-6">
-        <blockquote>
-          <% if photo.present? %>
-            <b><%= photo.first %></b> -
-          <% end %>
-          <%= photo.message %>
-          <small><%= photo.user.email %></small>
-        </blockquote>
+        <% if photo.present? %>
+          <b><%= image_tag photo.picture %></b> -
+          <%= photo.caption %>
+        <% end %>
       </div>
     <% end %>
   </div>
+</div>
 </div>

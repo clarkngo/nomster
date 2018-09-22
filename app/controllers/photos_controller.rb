@@ -6,6 +6,9 @@ class PhotosController < ApplicationController
     @photo = @place.photos.create(photo_params)
     if @photo.valid?
       redirect_to place_path(@place)
+    else
+      redirect_to place_path(@place)
+    end
   end
 
   private
