@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'sary_soft_extralightregular';
-    src: font_url('sary_soft_extralight-webfont.woff2') format('woff2'),
-         font_url('sary_soft_extralight-webfont.woff') format('woff');
+    src: font-url('sary_soft_extralight-webfont.woff2') format('woff2'),
+         font-url('sary_soft_extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -13,11 +13,10 @@
 
 
 
-
 @font-face {
     font-family: 'sary_soft_lightregular';
-    src: font_url('sary_soft_light-webfont.woff2') format('woff2'),
-         font_url('sary_soft_light-webfont.woff') format('woff');
+    src: font-url('sary_soft_light-webfont.woff2') format('woff2'),
+         font-url('sary_soft_light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -28,8 +27,8 @@
 
 @font-face {
     font-family: 'sary_soft_semiboldregular';
-    src: font_url('sary_soft_semiblod-webfont.woff2') format('woff2'),
-         font_url('sary_soft_semiblod-webfont.woff') format('woff');
+    src: font-url('sary_soft_semiblod-webfont.woff2') format('woff2'),
+         font-url('sary_soft_semiblod-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -40,8 +39,8 @@
 
 @font-face {
     font-family: 'sary_soft_thinregular';
-    src: font_url('sary_soft_thin-webfont.woff2') format('woff2'),
-         font_url('sary_soft_thin-webfont.woff') format('woff');
+    src: font-url('sary_soft_thin-webfont.woff2') format('woff2'),
+         font-url('sary_soft_thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -52,8 +51,8 @@
 
 @font-face {
     font-family: 'sary_softregular';
-    src: font_url('sary_soft-webfont.woff2') format('woff2'),
-         font_url('sary_soft-webfont.woff') format('woff');
+    src: font-url('sary_soft-webfont.woff2') format('woff2'),
+         font-url('sary_soft-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
