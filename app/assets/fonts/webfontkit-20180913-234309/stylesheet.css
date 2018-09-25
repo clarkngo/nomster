@@ -52,8 +52,8 @@
 
 @font-face {
     font-family: 'sary_softregular';
-    src: url('sary_soft-webfont.woff2') format('woff2'),
-         url('sary_soft-webfont.woff') format('woff');
+    src: font_url('sary_soft-webfont.woff2') format('woff2'),
+         font_url('sary_soft-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
