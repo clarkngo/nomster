@@ -5,19 +5,19 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 # carrierwave to S3 communication
-gem 'fog-aws'
+gem 'fog-aws', '~> 3.3.0'
 # image uploader
 gem 'carrierwave', '~> 1.0'
 # store your API Key here. Heroku-friendly Rails app configuration using ENV and a single YAML file
-gem 'figaro'
+gem 'figaro', '~> 1.1.1'
 # geocoding
-gem 'geocoder'
+gem 'geocoder', '~> 1.5.0'
 # user management
-gem 'devise'
+gem 'devise', '~> 4.5.0'
 # fonts fonts fonts
-gem "font-awesome-rails"
+gem "font-awesome-rails", '~> 4.7.0.4'
 # form submission
-gem 'simple_form'
+gem 'simple_form', '~> 4.0.1'
 # Pagination
 gem 'will_paginate', '~> 3.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -36,7 +36,7 @@ gem 'coffee-rails', '~> 4.2'
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 4.3.3'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -59,12 +59,12 @@ group :development do
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.0.5'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+  gem 'spring', '~> 2.0.2'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-gem 'popper_js', '~> 1.11.1'
-gem 'bootstrap', '4.0.0.alpha6'
+gem 'popper_js', '~> 1.14.3'
+gem 'bootstrap', '~> 4.1.3'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
