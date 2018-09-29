@@ -4,6 +4,9 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
+
+# mailer
+gem 'sendgrid-ruby', '~> 5.2.0'
 # carrierwave to S3 communication
 gem 'fog-aws', '~> 3.3.0'
 # image uploader
