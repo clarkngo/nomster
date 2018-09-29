@@ -4,6 +4,9 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
+# ruby version
+gem 'ruby', '~> 2.4.4'
+
 
 # mailer
 gem 'sendgrid-ruby', '~> 5.2.0'
