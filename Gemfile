@@ -7,8 +7,6 @@ end
 
 
 
-# mailer
-gem 'sendgrid-ruby', '~> 5.2.0'
 # carrierwave to S3 communication
 gem 'fog-aws', '~> 3.3.0'
 # image uploader
