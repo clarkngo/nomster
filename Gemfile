@@ -16,7 +16,7 @@ gem 'figaro', '~> 1.1.1'
 # geocoding
 gem 'geocoder', '~> 1.5.0'
 # user management
-gem 'devise', '~> 4.5.0'
+gem "devise", ">= 4.6.0"
 # fonts fonts fonts
 gem "font-awesome-rails", '~> 4.7.0.4'
 # form submission
@@ -66,8 +66,8 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-gem 'popper_js', '~> 1.14.3'
-gem 'bootstrap', '~> 4.1.3'
+gem 'popper_js', '< 2', '>= 1.12.9'
+gem 'bootstrap', '~> 4.0'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
