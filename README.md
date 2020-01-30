@@ -2,7 +2,7 @@
 
 Yelp Clone!
 
-This app powers nomster located [http://nomster-clark-ngo.herokuapp.com] (Heroku Project URL)
+This app powers nomster located [here](http://nomster-clark-ngo.herokuapp.com)
 
 ## Getting Started
 
