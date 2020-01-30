@@ -1,6 +1,6 @@
 # nomster
 
-Instagram clone! Built using test-driven development (TDD)
+Yelp Clone!
 
 This app powers nomster located [http://nomster-clark-ngo.herokuapp.com] (Heroku Project URL)
 
