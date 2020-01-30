@@ -20,7 +20,7 @@ gem "devise", ">= 4.6.0"
 # fonts fonts fonts
 gem "font-awesome-rails", '~> 4.7.0.4'
 # form submission
-gem 'simple_form', '~> 4.0.1'
+gem 'simple_form', '~> 5.0.0'
 # Pagination
 gem 'will_paginate', '~> 3.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
