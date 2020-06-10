@@ -14,7 +14,7 @@ gem 'carrierwave', '~> 1.0'
 # store your API Key here. Heroku-friendly Rails app configuration using ENV and a single YAML file
 gem 'figaro', '~> 1.1.1'
 # geocoding
-gem 'geocoder', '~> 1.5.0'
+gem 'geocoder', '~> 1.6.1'
 # user management
 gem "devise", ">= 4.6.0"
 # fonts fonts fonts
