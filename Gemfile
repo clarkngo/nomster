@@ -10,7 +10,7 @@ end
 # carrierwave to S3 communication
 gem 'fog-aws', '~> 3.3.0'
 # image uploader
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 # store your API Key here. Heroku-friendly Rails app configuration using ENV and a single YAML file
 gem 'figaro', '~> 1.1.1'
 # geocoding
